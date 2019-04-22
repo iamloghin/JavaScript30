@@ -1,4 +1,4 @@
-![JS30](/js30.png)
+![JS30](https://javascript30.com/images/JS3-social-share.png)
 # JavaScript30
 
 This repo contains all the challenges in the [JavaScript30](https://javascript30.com/) course organized by Wes Bos.
