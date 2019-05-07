@@ -24,7 +24,6 @@ function handleCheck(e) {
 
         if(firstChecked > lastChecked) [firstChecked, lastChecked] = [lastChecked, firstChecked];
 
-        index = 0;
         checkboxes.forEach(checkbox => {
             if(firstChecked !== undefined) {
                 if(index >= firstChecked && index <= lastChecked) {
@@ -34,7 +33,7 @@ function handleCheck(e) {
                     checkbox.checked = false;
                 }
             }
-            index++;
+            index--;
         });
     }
 }
